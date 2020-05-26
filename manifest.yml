@@ -1,0 +1,6 @@
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: DemoDannyFP
+  name: DemoDannyFP
+  memory: 64M
+  stack: cflinuxfs2
